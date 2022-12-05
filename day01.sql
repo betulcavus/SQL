@@ -3,8 +3,8 @@ CREATE DATABASE techproed;
 --DDL DATA DEFINITION LANGUAGE
 --CREATE - TABLO OLUSTURMA
 CREATE TABLE ogrenciler(
-ogrenci_no char(7),
-isim varchar(20),
+ogrenci_no char(7), --uzunlugu bildigimiz icin char
+isim varchar(20), --uzunlugu bilmedigimiz icin varchar
 soyisim varchar(25),
 not_ort real, --ondalikli sayilar icin
 kayit_tarihi date
